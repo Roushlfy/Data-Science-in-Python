@@ -1,0 +1,12 @@
+{
+	"HEADER":{
+		"prefix": "header",
+		"body": [
+			"#!/usr/bin/env python3",
+			"# -*- encoding: utf-8 -*-",
+			"# @Time: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE  $CURRENT_HOUR:$CURRENT_MINUTE",
+			"# @Author: xzxiao",
+			"$0"
+		]
+	}
+}
