@@ -7,7 +7,7 @@ from sklearn import metrics
 
 # 加载csv数据集，指定第一列为索引
 # load data and set the 0-th column as index
-df_data = pd.read_csv('ch07/data/iris_sanitized.csv',
+df_data = pd.read_csv('./data/iris_sanitized.csv',
                       index_col=[0])
 
 # 将Species列赋值于y,为分类标号，其余列赋值给x,为属性集
@@ -40,8 +40,8 @@ print('计算准确率(acc):', metrics.accuracy_score(y_test,
                                             y_pred))
 
 # save results
-y_test.to_csv('ch07/data/dt_test.csv')
-np.savetxt('ch07/data/dt_pred.csv', y_pred,
+y_test.to_csv('./data/dt_test.csv')
+np.savetxt('./data/dt_pred.csv', y_pred,
            fmt='%0.1f', delimiter=',', newline='\n')
 
 
@@ -50,7 +50,7 @@ np.savetxt('ch07/data/dt_pred.csv', y_pred,
 
 # 加载csv数据集，指定第一列为索引
 # load csv dataset (petalwidth ignored)
-df_data = pd.read_csv('ch07/data/iris_del_petalwidth.csv',
+df_data = pd.read_csv('./data/iris_del_petalwidth.csv',
                       index_col=[0])
 
 # 将第一列数据取变量为y,是预测值，其余列为特征
@@ -76,6 +76,6 @@ print('逻辑回归模型评分:\n', metrics.accuracy_score(y_test, y_pred))
 
 # 保存预测结果
 # save results
-y_test.to_csv('ch07/data/lr_test.csv')
-np.savetxt('ch07/data/lr_pred.csv', y_pred,
+y_test.to_csv('./data/lr_test.csv')
+np.savetxt('./data/lr_pred.csv', y_pred,
            fmt='%0.1f', delimiter=',', newline='\n')

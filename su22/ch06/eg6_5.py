@@ -6,16 +6,16 @@
 import pandas as pd
 
 # load data from csv
-df = pd.read_csv("ch06/data/Iris.csv")
+df = pd.read_csv("./data/Iris.csv")
 
 # write data into excel
 df.to_excel(
-    excel_writer="ch06/data/Iris.xlsx",
+    excel_writer="./data/Iris.xlsx",
     sheet_name='Sheet1')
 
 # load data again form excel
 de_excel = pd.read_excel(
-    "ch06/data/Iris.xlsx",
+    "./data/Iris.xlsx",
     index_col=[0],
     header=[0])
 

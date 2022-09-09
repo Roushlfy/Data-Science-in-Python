@@ -7,7 +7,7 @@ import pandas as pd
 
 # load data
 # column index is [0], row index is [0]
-data = pd.read_csv('data/Iris.csv', index_col=[0], header=[0])
+data = pd.read_csv('./data/Iris.csv', index_col=[0], header=[0])
 
 # print the first 10 rows
 print(data.head(10))

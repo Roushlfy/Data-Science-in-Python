@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # load sanitized data from csv
 sanitized_df = pd.read_csv(
-    "ch07/data/Iris_sanitized.csv",
+    "./data/Iris_sanitized.csv",
     usecols=[i for i in range(1, 7)])
 
 sanitized_df.columns = [
@@ -69,7 +69,7 @@ plt.xlabel('Petal Width(cm)')
 plt.ylabel('Frequency')
 
 plt.subplots_adjust(wspace=0.3, hspace=0.5)
-plt.savefig("ch07/figures/veriscolor_hist.png")
+plt.savefig("./figures/veriscolor_hist.png")
 plt.show()
 
 
@@ -100,12 +100,12 @@ plt.legend(
     ('setosa', 'versicolor', 'virginica'),
     loc='best')
 
-plt.savefig('ch07/figures/petal_sepal_length.png')
+plt.savefig('./figures/petal_sepal_length.png')
 plt.show()
 
 # analysis of data attributes
 # calculate the correlation
-df = pd.read_csv("ch07/data/iris_sanitized.csv", usecols=[1, 2, 3, 4, 5, 6])
+df = pd.read_csv("./data/iris_sanitized.csv", usecols=[1, 2, 3, 4, 5, 6])
 
 corr_matrix = df.iloc[:, 1:-1].corr(method='pearson')
 print(corr_matrix)
@@ -113,5 +113,5 @@ print(corr_matrix)
 # petal width is strongly correlated with petal length
 # ignore petal width when further data analyzing
 df.iloc[:, [0, 1, 2, 3, 5]].to_csv(
-    "ch07/data/iris_del_petalwidth.csv",
+    "./data/iris_del_petalwidth.csv",
     encoding='utf-8')

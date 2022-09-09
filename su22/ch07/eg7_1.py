@@ -7,7 +7,7 @@ from turtle import title
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("ch07/data/Iris_0625.csv")
+df = pd.read_csv("./data/Iris_0625.csv")
 df.info()
 
 # print the first 5 lines of the data table
@@ -40,7 +40,7 @@ for x in grouped:
     dropped.update(x[1])
 # save data as iris_filled.csv
 filled = dropped
-filled.to_csv("ch07/data/iris_filled.csv")
+filled.to_csv("./data/iris_filled.csv")
 
 
 # abnormal data analysis
@@ -59,7 +59,7 @@ plt.subplot(224)
 plt.boxplot(filled['PetalWidth'], labels=['Petal Width'])
 
 plt.subplots_adjust(wspace=0.2, hspace=0.25)
-plt.savefig("ch07/figures/iris_box.png")
+plt.savefig("./figures/iris_box.png")
 plt.show()
 
 
@@ -74,5 +74,5 @@ delabnormal_data = filled.query(f'SepalWidth > {sw_low} and\
 
 # draw bx graph according to sanitized data
 delabnormal_data[['SepalWidth']].plot(kind='box', grid=False)
-plt.savefig('ch07/figures/iris_sepalwidth_box.png')
-delabnormal_data.to_csv('ch07/data/iris_sanitized.csv')
+plt.savefig('./figures/iris_sepalwidth_box.png')
+delabnormal_data.to_csv('./data/iris_sanitized.csv')

@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 gdp_01_21 = pd.read_csv(
-        "ch06/data/GDP_2001_2021.csv", 
+        "./data/GDP_2001_2021.csv", 
         index_col=[0], header=[0])
 
 # draw a line graph
@@ -23,12 +23,12 @@ gdp_01_21.plot(kind='line',
                ylabel='quadrillion',
                title='GDP of 5 Main Countries (2001-2021)',
                style='1--')
-plt.savefig("ch06/figures/GDP_2001_2021_line.png")
+plt.savefig("./figures/GDP_2001_2021_line.png")
 plt.show()
 
 
 # read GDP_2021.csv
-gdp_21 = pd.read_csv("ch06/data/GDP_2021.csv", index_col=[0], header=[0])
+gdp_21 = pd.read_csv("./data/GDP_2021.csv", index_col=[0], header=[0])
 countries = ['China', 'USA', 'Russia', 'France', 'UK', 'Others']
 gdp_21['GDP'].plot(
         kind='pie',
@@ -38,13 +38,13 @@ gdp_21['GDP'].plot(
         ylabel='',
         title='GDP Percentage of 5 Main Countries'
 )
-plt.savefig("ch06/figures/GDP_2021_pie.png")
+plt.savefig("./figures/GDP_2021_pie.png")
 plt.show()
 
 
 # read GDP_POP_2021.csv
 pop_21 = pd.read_csv(
-        'ch06/data/GDP_Pop_2021.csv', 
+        './data/GDP_Pop_2021.csv', 
         index_col=[0], usecols=['Country', 'GDP', 'Pop'])
 countries = ['China', 'USA', 'Russia', 'France', 'UK']
 items = ['GPD(quadrillion)', 'Population(100 million)']
@@ -56,12 +56,12 @@ pop_21 .plot(
         style='2-',
         grid=True,
         rot=0)
-plt.savefig('ch06/figures/GDP_POP_2021_bar.png')
+plt.savefig('./figures/GDP_POP_2021_bar.png')
 plt.show()
 
 
 # read iris_hist.csv
-iris = pd.read_csv("ch06/data/iris_hist.csv", header=None)
+iris = pd.read_csv("./data/iris_hist.csv", header=None)
 iris.columns = [
         'Sepal Length(cm)', 'Sepal Width(cm)',
         'Petal Length(cm)', 'Petal Width(cm)']
@@ -71,7 +71,7 @@ iris.plot(
         y='Sepal Length(cm)',
         kind='scatter',
         style='o')
-plt.savefig("ch06/figures/iris_sepal_scatter.png")
+plt.savefig("./figures/iris_sepal_scatter.png")
 plt.show()
 
 iris.plot(
@@ -79,11 +79,11 @@ iris.plot(
         y='Petal Length(cm)',
         kind='scatter',
         style='*')
-plt.savefig("ch06/figures/iris_petal_scatter.png")
+plt.savefig("./figures/iris_petal_scatter.png")
 plt.show()
 
 iris.plot(
         kind='box',
         title='Box Graph of Iris Length and Width')
-plt.savefig("ch06/figures/iris_box.png")
+plt.savefig("./figures/iris_box.png")
 plt.show()
