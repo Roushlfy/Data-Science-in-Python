@@ -1,0 +1,373 @@
+
+
+Call of the main function at:
+2022-09-09 23:37:50
+The first 10 rows of data:
+
+
+Call of the main function at:
+2022-09-09 23:43:35
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+
+Call of the main function at:
+2022-09-09 23:44:05
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+
+Call of the main function at:
+2022-09-09 23:44:20
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+
+Call of the main function at:
+2022-09-09 23:44:31
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+
+Call of the main function at:
+2022-09-09 23:44:52
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+
+Call of the main function at:
+2022-09-09 23:45:52
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+Total number of missing values:
+214
+
+Call of the main function at:
+2022-09-09 23:47:26
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+Total number of missing values:
+214
+The number of missing values in each column:
+ SeriousDlqin2yrs                          0
+RevolvingUtilizationOfUnsecuredLines      0
+Age                                       0
+NumberOfTime30-59DaysPastDueNotWorse      0
+DebtRatio                                 0
+MonthlyIncome                           181
+NumberOfOpenCreditLinesAndLoans           0
+NumberOfTimes90DaysLate                   0
+NumberRealEstateLoansOrLines              0
+NumberOfTime60-89DaysPastDueNotWorse      0
+NumberOfDependents                       33
+
+Call of the main function at:
+2022-09-09 23:47:42
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+Total number of missing values:
+214
+The number of missing values in each column:
+ SeriousDlqin2yrs                          0
+RevolvingUtilizationOfUnsecuredLines      0
+Age                                       0
+NumberOfTime30-59DaysPastDueNotWorse      0
+DebtRatio                                 0
+MonthlyIncome                           181
+NumberOfOpenCreditLinesAndLoans           0
+NumberOfTimes90DaysLate                   0
+NumberRealEstateLoansOrLines              0
+NumberOfTime60-89DaysPastDueNotWorse      0
+NumberOfDependents                       33
+Columns that has missing values:
+ SeriousDlqin2yrs                        False
+RevolvingUtilizationOfUnsecuredLines    False
+Age                                     False
+NumberOfTime30-59DaysPastDueNotWorse    False
+DebtRatio                               False
+MonthlyIncome                            True
+NumberOfOpenCreditLinesAndLoans         False
+NumberOfTimes90DaysLate                 False
+NumberRealEstateLoansOrLines            False
+NumberOfTime60-89DaysPastDueNotWorse    False
+NumberOfDependents                       True
+
+Call of the main function at:
+2022-09-09 23:49:08
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+Total number of missing values:
+214
+The number of missing values in each column:
+ SeriousDlqin2yrs                          0
+RevolvingUtilizationOfUnsecuredLines      0
+Age                                       0
+NumberOfTime30-59DaysPastDueNotWorse      0
+DebtRatio                                 0
+MonthlyIncome                           181
+NumberOfOpenCreditLinesAndLoans           0
+NumberOfTimes90DaysLate                   0
+NumberRealEstateLoansOrLines              0
+NumberOfTime60-89DaysPastDueNotWorse      0
+NumberOfDependents                       33
+Columns that has missing values:
+ SeriousDlqin2yrs                        False
+RevolvingUtilizationOfUnsecuredLines    False
+Age                                     False
+NumberOfTime30-59DaysPastDueNotWorse    False
+DebtRatio                               False
+MonthlyIncome                            True
+NumberOfOpenCreditLinesAndLoans         False
+NumberOfTimes90DaysLate                 False
+NumberRealEstateLoansOrLines            False
+NumberOfTime60-89DaysPastDueNotWorse    False
+NumberOfDependents                       True
+
+Call of the main function at:
+2022-09-09 23:49:38
+The first 10 rows of data:
+    SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines  Age  NumberOfTime30-59DaysPastDueNotWorse    DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+1                  1                              0.766127   45                                     2     0.802982         9120.0                               13                        0                             6                                     0                 2.0
+2                  0                              0.957151   40                                    98     0.121876         2600.0                                4                        0                             0                                     0                 1.0
+3                  0                              0.658180   38                                    96     0.085113         3042.0                                2                        1                             0                                     0                 0.0
+4                  0                              0.233810   30                                     0     0.036050         3300.0                                5                        0                             0                                     0                 0.0
+5                  0                              0.907239   49                                     1     0.024926        63588.0                                7                        0                             1                                     0                 0.0
+6                  0                              0.213179   74                                     0     0.375607         3500.0                                3                       96                             1                                     0                 1.0
+7                  0                              0.305682   57                                     0  5710.000000            NaN                                8                        0                             3                                     0                 0.0
+8                  0                              0.754464   39                                     0     0.209940         3500.0                                8                       98                             0                                     0                 0.0
+9                  0                              0.116951   27                                     0    46.000000            NaN                                2                        0                             0                                     0                 NaN
+10                 0                              0.189169   57                                     0     0.606291        23684.0                                9                        0                             4                                     0                 2.0
+Descriptive info:
+       SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines          Age  NumberOfTime30-59DaysPastDueNotWorse     DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+count       1000.000000                           1000.000000  1000.000000                            1000.00000   1000.000000     819.000000                       1000.00000              1000.000000                   1000.000000                           1000.000000          967.000000
+mean           0.057000                              4.717846    51.793000                               0.45900    353.772448    6617.976801                          8.52300                 0.275000                      0.974000                              0.250000            0.722854
+std            0.231959                             98.649119    15.174466                               4.39245   1167.736841    8818.220170                          5.16877                 4.348366                      1.019001                              4.343543            1.069880
+min            0.000000                              0.000000    22.000000                               0.00000      0.000000       0.000000                          0.00000                 0.000000                      0.000000                              0.000000            0.000000
+25%            0.000000                              0.032362    40.000000                               0.00000      0.167349    3300.000000                          5.00000                 0.000000                      0.000000                              0.000000            0.000000
+50%            0.000000                              0.159672    52.000000                               0.00000      0.360422    5217.000000                          8.00000                 0.000000                      1.000000                              0.000000            0.000000
+75%            0.000000                              0.533372    62.250000                               0.00000      0.750515    8332.500000                         11.00000                 0.000000                      2.000000                              0.000000            1.000000
+max            1.000000                           2340.000000    97.000000                              98.00000  15466.000000  208333.000000                         31.00000                98.000000                      8.000000                             98.000000            6.000000
+Duplicated rows:
+0
+Total number of missing values:
+214
+The number of missing values in each column:
+ SeriousDlqin2yrs                          0
+RevolvingUtilizationOfUnsecuredLines      0
+Age                                       0
+NumberOfTime30-59DaysPastDueNotWorse      0
+DebtRatio                                 0
+MonthlyIncome                           181
+NumberOfOpenCreditLinesAndLoans           0
+NumberOfTimes90DaysLate                   0
+NumberRealEstateLoansOrLines              0
+NumberOfTime60-89DaysPastDueNotWorse      0
+NumberOfDependents                       33
+Columns that has missing values:
+ SeriousDlqin2yrs                        False
+RevolvingUtilizationOfUnsecuredLines    False
+Age                                     False
+NumberOfTime30-59DaysPastDueNotWorse    False
+DebtRatio                               False
+MonthlyIncome                            True
+NumberOfOpenCreditLinesAndLoans         False
+NumberOfTimes90DaysLate                 False
+NumberRealEstateLoansOrLines            False
+NumberOfTime60-89DaysPastDueNotWorse    False
+NumberOfDependents                       True0The correlation matrix of all variables:                                      SeriousDlqin2yrs  RevolvingUtilizationOfUnsecuredLines       Age  NumberOfTime30-59DaysPastDueNotWorse  DebtRatio  MonthlyIncome  NumberOfOpenCreditLinesAndLoans  NumberOfTimes90DaysLate  NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse  NumberOfDependents
+SeriousDlqin2yrs                              1.000000                              0.083130 -0.072455                              0.029769   0.016181      -0.038857                         0.057727                 0.004613                      0.071667                              0.005980            0.059007
+RevolvingUtilizationOfUnsecuredLines          0.083130                              1.000000 -0.001646                             -0.004398  -0.013683       0.024381                        -0.010196                 0.001954                      0.026454                             -0.002682            0.037457
+Age                                          -0.072455                             -0.001646  1.000000                             -0.046365   0.046841       0.094824                         0.120456                 0.010422                     -0.022436                             -0.010859           -0.189305
+NumberOfTime30-59DaysPastDueNotWorse          0.029769                             -0.004398 -0.046365                              1.000000  -0.014937      -0.047054                        -0.031066                 0.002809                     -0.025471                              0.005112            0.001496
+DebtRatio                                     0.016181                             -0.013683  0.046841                             -0.014937   1.000000      -0.040015                         0.052570                -0.017015                      0.172193                             -0.011368           -0.087517
+MonthlyIncome                                -0.038857                              0.024381  0.094824                             -0.047054  -0.040015       1.000000                         0.255140                -0.037688                      0.290967                             -0.041921            0.138725
+NumberOfOpenCreditLinesAndLoans               0.057727                             -0.010196  0.120456                             -0.031066   0.052570       0.255140                         1.000000                -0.033618                      0.408947                              0.035019            0.120839
+NumberOfTimes90DaysLate                       0.004613                              0.001954  0.010422                              0.002809  -0.017015      -0.037688                        -0.033618                 1.000000                     -0.025833                             -0.001343           -0.009180
+NumberRealEstateLoansOrLines                  0.071667                              0.026454 -0.022436                             -0.025471   0.172193       0.290967                         0.408947                -0.025833                      1.000000                             -0.042093            0.100644
+NumberOfTime60-89DaysPastDueNotWorse          0.005980                             -0.002682 -0.010859                              0.005112  -0.011368      -0.041921                         0.035019                -0.001343                     -0.042093                              1.000000           -0.008515
+NumberOfDependents                            0.059007                              0.037457 -0.189305                              0.001496  -0.087517       0.138725                         0.120839                -0.009180                      0.100644                             -0.008515            1.000000
