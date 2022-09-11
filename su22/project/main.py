@@ -132,30 +132,46 @@ def handle_abnormal(df):
     """
 
     # 根据age和MonthlyIncome列筛除异常值所在行绘制箱线图
-    plt.figure(figsize=(10,6), num='Box Graph of Age and MonthlyIncome')
-    plt.subplot(121)
-    plt.boxplot(df['Age'], labels=['Age'])
+    # age 和 MonthlyIncome 列等于 0 的值为异常值，age 列大于 100 的值为异常值
+    # 直接剔除所在行
+    df.query(
+        'Age > 0 and Age <= 100 and MonthlyIncome != 0',
+        inplace=True
+    )
 
-    plt.subplot(122)
-    plt.boxplot(df['MonthlyIncome'], labels=['Monthly Income'])
+    # 根据'NumberOfTime30-59DaysPastDueNotWorse', 
+    # 'NumberOfTimes90DaysLate', 'NumberOfTime60-89DaysPastDueNotWorse'
+    # 3列筛除异常值所在行绘制箱线图
+    plt.figure(figsize=(10,6), num='Box Graph of 3 columns')    
+    plt.boxplot(
+        df[['NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTimes90DaysLate',
+            'NumberOfTime30-59DaysPastDueNotWorse']],
+        labels=['30-59Days', '90Days', '60-89Days'])
 
-    plt.subplots_adjust(wspace=0.5)
-    plt.savefig('./figures/box_age_inc.png')
+    plt.savefig('./figures/box_number_of_time.png')
     plt.show()
+
 
     # 删除异常值
     # delete abnormal data
-    sw_q1 = df['MonthlyIncome'].quantile(0.25)  # 计算上四分位数
-    sw_q3 = df['MonthlyIncome'].quantile(0.75)  # 计算下四分位数
+    # 删除MonthlyIncome列异常值
+    sw_q1 = df['MonthlyIncome'].quantile(0.25)
+    sw_q3 = df['MonthlyIncome'].quantile(0.75)
     sw_iqr = sw_q3 - sw_q1  # 计算四分位间距
     sw_low = sw_q1 - 1.5 * sw_iqr  # 计算下限
     sw_up = sw_q3 + 1.5 * sw_iqr  # 计算上限
+    df.query(f'`MonthlyIncome` >= {sw_low} and `MonthlyIncome` <= {sw_up}', inplace=True)
+    
+    df.query(f'`NumberOfTime30-59DaysPastDueNotWorse` >= 0 and `NumberOfTime30-59DaysPastDueNotWorse` < 80', inplace=True)
 
-    del_abnormal = df.query(f'MonthlyIncome > {sw_low} and\
-                                    MonthlyIncome < {sw_up}')
+    df.query(f'`NumberOfTimes90DaysLate` >= 0 and `NumberOfTimes90DaysLate` < 80', inplace=True)
+    
+    df.query(f'`NumberOfTime60-89DaysPastDueNotWorse` >= 0 and `NumberOfTime60-89DaysPastDueNotWorse` < 80', inplace=True)
+
+    print(df.info())
 
     # 绘制删除异常数据后的MonthlyIncome直方图
-    del_abnormal[['MonthlyIncome']].plot(
+    df[['MonthlyIncome']].plot(
         title='Monthly Income Box Graph',
         kind='hist',
         density=False,
@@ -168,9 +184,9 @@ def handle_abnormal(df):
     plt.show()
 
     # 将删除异常值之后的数据存储至新的csv文件
-    del_abnormal.to_csv('./data/sanitized.csv')
+    df.to_csv('./data/sanitized.csv')
 
-    return del_abnormal
+    return df
 
 # 数据特征分析
 # data analysis
